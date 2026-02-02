@@ -273,6 +273,15 @@ h3 { font-size: 1.5rem; }
     margin: 0 auto 60px;
 }
 
+.disclaimer {
+    text-align: center;
+    color: var(--gray-500);
+    font-size: 0.85rem;
+    font-style: italic;
+    max-width: 600px;
+    margin: -40px auto 40px;
+}
+
 /* ============ Steps ============ */
 
 .steps {
