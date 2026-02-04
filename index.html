@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeatENE | Intelligent Infrared Skirting Heating</title>
-    <meta name="description" content="Revolutionary heated skirting boards that replace traditional radiators. 100% efficient, invisible heating that saves space and energy.">
+    <title>HeatENE | Invisible Heating. Visible Savings.</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="HeatENE - Revolutionary heated baseboard system. 100% efficient infrared heating, made in USA. Replace ugly radiators with invisible warmth. Get a free quote today.">
+    <meta name="keywords" content="baseboard heater, infrared heating, radiant heat, electric heating, energy efficient heating, made in USA, Oklahoma">
+    <meta name="author" content="HeatENE USA">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="HeatENE | Invisible Heating. Visible Savings.">
+    <meta property="og:description" content="Revolutionary heated baseboard system made in USA. 100% efficient, no cold spots, 10 year warranty.">
+    <meta property="og:image" content="https://www.heatene.com/assets/install-hallway-1.jpg">
+    <meta property="og:url" content="https://www.heatene.com/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HeatENE | Invisible Heating. Visible Savings.">
+    <meta name="twitter:description" content="Revolutionary heated baseboard system made in USA. 100% efficient infrared heating.">
+    <meta name="twitter:image" content="https://www.heatene.com/assets/install-hallway-1.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.heatene.com/">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -15,14 +37,15 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
-            <a href="/" class="nav-logo">
+            <a href="./" class="nav-logo">
                 <img src="assets/logo.svg" alt="HeatENE" height="40">
             </a>
             <ul class="nav-links">
                 <li><a href="#how-it-works">How It Works</a></li>
                 <li><a href="#benefits">Benefits</a></li>
                 <li><a href="#products">Products</a></li>
-                <li><a href="https://eastwardinho.github.io/heatene-calculator/" class="btn btn-primary">Get Quote</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#lead-capture" class="btn btn-primary">Get Quote</a></li>
             </ul>
             <button class="nav-toggle" aria-label="Menu">
                 <span></span>
@@ -36,16 +59,43 @@
     <header class="hero">
         <div class="hero-content">
             <h1>Invisible Heating.<br><span class="highlight">Visible Savings.</span></h1>
-            <p class="hero-subtitle">Revolutionary heated skirting that replaces bulky radiators. 100% efficient, beautifully hidden, and up to 60% cheaper to run.</p>
+            <p class="hero-subtitle">Revolutionary heated baseboards designed for American homes. Even, comfortable warmth with no cold spots — 100% efficient, beautifully hidden, and up to 60% cheaper to run.</p>
             <div class="hero-cta">
-                <a href="https://eastwardinho.github.io/heatene-calculator/" class="btn btn-primary btn-large">Calculate Your Savings</a>
+                <a href="/calculator/" class="btn btn-primary btn-large">Calculate Your Savings</a>
                 <a href="#how-it-works" class="btn btn-secondary btn-large">Learn More</a>
             </div>
         </div>
         <div class="hero-image">
-            <img src="assets/render-3.jpg" alt="HeatENE heated skirting in modern living room">
+            <img src="assets/install-hallway-1.jpg" alt="HeatENE heated baseboard installed in modern apartment hallway">
         </div>
     </header>
+
+    <!-- Lead Capture CTA -->
+    <section class="lead-capture" id="lead-capture">
+        <div class="container">
+            <div class="lead-box">
+                <h3>Get Your Free Quote</h3>
+                <p>Tell us your home size and we'll send you a personalized estimate within 24 hours.</p>
+                <form class="lead-form" action="https://formspree.io/warmth@heatene.com" method="POST">
+                    <input type="hidden" name="_subject" value="New HeatENE Quote Request">
+                    <input type="hidden" name="_next" value="https://www.heatene.com/?thanks=1">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <input type="text" name="sqft" placeholder="Home Size (sq ft)">
+                    <select name="timeline">
+                        <option value="">When do you need heating?</option>
+                        <option value="asap">As soon as possible</option>
+                        <option value="1-3months">1-3 months</option>
+                        <option value="3-6months">3-6 months</option>
+                        <option value="planning">Just planning</option>
+                    </select>
+                    <button type="submit" class="btn btn-primary btn-large">Get Free Quote →</button>
+                </form>
+                <p class="form-note">No obligation. We'll never share your information.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Stats Bar -->
     <section class="stats-bar">
@@ -69,17 +119,30 @@
         </div>
     </section>
 
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges">
+                <div class="badge">🇺🇸 Made in USA</div>
+                <div class="badge">🛡️ 10 Year Warranty</div>
+                <div class="badge">✅ UL Listed</div>
+                <div class="badge">📞 Free Consultation</div>
+                <div class="badge">💰 Financing Available</div>
+            </div>
+        </div>
+    </section>
+
     <!-- How It Works -->
     <section class="section" id="how-it-works">
         <div class="container">
             <h2 class="section-title">How It Works</h2>
-            <p class="section-subtitle">HeatENE replaces traditional skirting boards with intelligent heated panels that warm your home from the ground up.</p>
+            <p class="section-subtitle">HeatENE replaces traditional baseboards with intelligent heated panels that warm your home from the ground up.</p>
             
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
                     <h3>Graphene Infrared Film</h3>
-                    <p>Advanced graphene heating film emits far-infrared radiation (8-14μm wavelength) that directly warms people and objects — just like the sun.</p>
+                    <p>Advanced graphene heating film emits far-infrared radiation that warms people and objects directly — creating even, comfortable warmth with no cold spots, just like the sun.</p>
                 </div>
                 <div class="step">
                     <div class="step-number">2</div>
@@ -89,7 +152,7 @@
                 <div class="step">
                     <div class="step-number">3</div>
                     <h3>Rapid Response</h3>
-                    <p>Heat a room by 10°C in just 20 minutes. The thermostat cycles on and off to maintain perfect temperature with minimal energy.</p>
+                    <p>Heat a room by 18°F in just 20 minutes. The thermostat cycles on and off to maintain perfect temperature with minimal energy.</p>
                 </div>
             </div>
         </div>
@@ -100,17 +163,61 @@
         <div class="container">
             <div class="thermal-grid">
                 <div class="thermal-image">
-                    <img src="assets/thermal-test.jpg" alt="FLIR thermal imaging showing HeatENE heat distribution at 44°C">
+                    <img src="assets/thermal-test.jpg" alt="FLIR thermal imaging showing HeatENE heat distribution at 131°F">
                 </div>
                 <div class="thermal-content">
                     <h2>Proven Performance</h2>
-                    <p>Independent testing with FLIR thermal imaging confirms even heat distribution across the entire skirting surface.</p>
+                    <p>Independent testing with FLIR thermal imaging confirms even heat distribution across the entire baseboard surface.</p>
                     <ul class="thermal-stats">
-                        <li><strong>55°C</strong> max surface temp (child safe)</li>
+                        <li><strong>131°F</strong> max surface temp (child safe)</li>
                         <li><strong>99.69%</strong> thermal conversion efficiency</li>
-                        <li><strong>20 min</strong> to heat room by 10°C</li>
+                        <li><strong>20 min</strong> to heat room by 18°F</li>
                         <li><strong>IPX5</strong> waterproof rated</li>
                     </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Homeowners Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">"We replaced our old baseboard heaters with HeatENE and our energy bill dropped 40%. Plus no more cold spots by the windows!"</p>
+                    <p class="testimonial-author">— Sarah M., Minnesota</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The installer was done in a day. It looks so clean - visitors don't even notice it's our heating system."</p>
+                    <p class="testimonial-author">— David R., Colorado</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Finally, even heat throughout the room. No more fighting over the thermostat."</p>
+                    <p class="testimonial-author">— Jennifer K., Ohio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Real Installations Gallery -->
+    <section class="section gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Real Installations</h2>
+            <p class="section-subtitle">See HeatENE in action — these photos are from actual apartment installations in New Zealand.</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/install-bedroom-1.jpg" alt="Bedroom with HeatENE baseboard" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/install-corner-detail.jpg" alt="Close-up of corner connector with thermostat" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/install-bedroom-2.jpg" alt="Bedroom with thermostat controls" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/install-corner-cabinet.jpg" alt="Clean corner detail around cabinet" loading="lazy">
                 </div>
             </div>
         </div>
@@ -123,9 +230,14 @@
             
             <div class="benefits-grid">
                 <div class="benefit">
+                    <div class="benefit-icon">✨</div>
+                    <h3>Beautiful, Not Ugly</h3>
+                    <p>Say goodbye to clunky radiators, bulky baseboard heaters, and wall-mounted eyesores. HeatENE looks like elegant trim — guests won't even know it's your heating system.</p>
+                </div>
+                <div class="benefit">
                     <div class="benefit-icon">💨</div>
                     <h3>Reclaim Your Space</h3>
-                    <p>No more bulky radiators blocking furniture placement. HeatENE sits where your skirting already is.</p>
+                    <p>No more bulky radiators blocking furniture placement. HeatENE sits where your baseboard already is.</p>
                 </div>
                 <div class="benefit">
                     <div class="benefit-icon">💰</div>
@@ -140,17 +252,17 @@
                 <div class="benefit">
                     <div class="benefit-icon">🔧</div>
                     <h3>Zero Maintenance</h3>
-                    <p>No boiler services, no bleeding radiators, no moving parts. Install and forget for 25+ years.</p>
+                    <p>No furnace services, no bleeding radiators, no moving parts. Install and forget for 25+ years.</p>
                 </div>
                 <div class="benefit">
                     <div class="benefit-icon">🏠</div>
                     <h3>Any Home, Any Style</h3>
-                    <p>Standard white powder coat blends seamlessly. Custom RAL colours available for perfect matching.</p>
+                    <p>Standard white powder coat blends seamlessly. Custom colors available for perfect matching.</p>
                 </div>
                 <div class="benefit">
-                    <div class="benefit-icon">❤️</div>
-                    <h3>Healthier Heat</h3>
-                    <p>No air circulation means no dust movement. Ideal for allergy sufferers. Even, comfortable warmth.</p>
+                    <div class="benefit-icon">🌡️</div>
+                    <h3>No Cold Spots</h3>
+                    <p>Unlike forced-air systems that blow hot air and create uneven temperatures, HeatENE uses gentle radiant heat that warms evenly from floor level up. No drafts, no noise, no dry air.</p>
                 </div>
             </div>
         </div>
@@ -160,26 +272,27 @@
     <section class="section" id="products">
         <div class="container">
             <h2 class="section-title">The HeatENE System</h2>
-            <p class="section-subtitle">Professional-grade heated skirting designed for the UK climate.</p>
-            <p class="disclaimer">*Results based on independent testing in controlled conditions. Your home's performance will vary — better insulation means better results! Use our calculator for a personalised estimate.</p>
+            <p class="section-subtitle">Professional-grade heated baseboards designed for American homes.</p>
+            <p class="disclaimer">*Results based on independent testing in controlled conditions. Your home's performance will vary — better insulation means better results! Use our calculator for a personalized estimate.</p>
             
             <div class="product-showcase">
                 <div class="product-image">
-                    <img src="assets/product-skirting-corner.jpg" alt="HeatENE heated skirting board with corner connectors">
+                    <img src="assets/product-skirting-corner.jpg" alt="HeatENE heated baseboard with corner connectors">
                 </div>
                 <div class="product-details">
-                    <h3>Heated Skirting Boards</h3>
+                    <h3>Heated Baseboards</h3>
+                    <div class="made-in-usa">🇺🇸 Assembled in Oklahoma, USA</div>
                     <ul class="product-specs">
-                        <li><strong>Output:</strong> 70W per linear metre</li>
+                        <li><strong>Output:</strong> 21W per linear foot</li>
                         <li><strong>Efficiency:</strong> 99.69% thermal conversion</li>
-                        <li><strong>Surface Temp:</strong> 55°C max (child safe)</li>
-                        <li><strong>Material:</strong> 6063 grade aluminium extrusion</li>
-                        <li><strong>Lengths:</strong> Up to 6m (snap-fit connectors)</li>
-                        <li><strong>Finish:</strong> Akzonobel powder coat — white standard, custom RAL available</li>
+                        <li><strong>Surface Temp:</strong> 131°F max (child safe)</li>
+                        <li><strong>Material:</strong> 6063 grade aluminum extrusion</li>
+                        <li><strong>Lengths:</strong> Up to 20ft (snap-fit connectors)</li>
+                        <li><strong>Finish:</strong> Akzonobel powder coat — white standard, custom colors available</li>
                         <li><strong>Warranty:</strong> 10 years</li>
-                        <li><strong>Certifications:</strong> IEC 60335-2-30, IPX5, ISO 9001:2015</li>
+                        <li><strong>Certifications:</strong> UL Listed, IPX5 Rated, ISO 9001:2015</li>
                     </ul>
-                    <a href="https://eastwardinho.github.io/heatene-calculator/" class="btn btn-primary">Get Your Quote</a>
+                    <a href="/calculator/" class="btn btn-primary">Get Your Quote</a>
                 </div>
             </div>
         </div>
@@ -196,9 +309,9 @@
                         <tr>
                             <th></th>
                             <th class="highlight">HeatENE</th>
-                            <th>Gas Boiler</th>
+                            <th>Gas Furnace</th>
                             <th>Heat Pump</th>
-                            <th>Electric Radiators</th>
+                            <th>Electric Baseboard</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -211,10 +324,10 @@
                         </tr>
                         <tr>
                             <td>Installation Cost</td>
-                            <td class="highlight">£££</td>
-                            <td>££££</td>
-                            <td>£££££</td>
-                            <td>££</td>
+                            <td class="highlight">$$$</td>
+                            <td>$$$$</td>
+                            <td>$$$$$</td>
+                            <td>$$</td>
                         </tr>
                         <tr>
                             <td>Running Cost</td>
@@ -239,8 +352,8 @@
                         </tr>
                         <tr>
                             <td>Space Required</td>
-                            <td class="highlight">Zero (in skirting)</td>
-                            <td>Boiler + radiators</td>
+                            <td class="highlight">Zero (in baseboard)</td>
+                            <td>Furnace + ducts</td>
                             <td>External unit + indoor</td>
                             <td>Wall space</td>
                         </tr>
@@ -262,7 +375,40 @@
         <div class="container">
             <h2>Ready to Transform Your Heating?</h2>
             <p>Get an instant quote for your home with our calculator. See your potential savings in minutes.</p>
-            <a href="https://eastwardinho.github.io/heatene-calculator/" class="btn btn-white btn-large">Calculate Now →</a>
+            <a href="/calculator/" class="btn btn-white btn-large">Calculate Now →</a>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How much does it cost to run?</h4>
+                    <p>At average US electricity rates ($0.16/kWh), a typical room costs around $0.50-1.00 per day to heat. Use our calculator for your exact estimate.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is it safe for children and pets?</h4>
+                    <p>Yes! Surface temperature maxes at 131°F (55°C) - warm to touch but won't burn. UL Listed for household safety.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I install it myself?</h4>
+                    <p>HeatENE uses snap-fit connectors - no special tools needed. However, electrical connection should be done by a licensed electrician.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How long does installation take?</h4>
+                    <p>A typical room takes 2-3 hours. Whole home installation is usually completed in 1-2 days.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What's the warranty?</h4>
+                    <p>10 years on the heating elements, 10 years on the Akzonobel powder coat finish. We stand behind our product.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Does it work with my smart home?</h4>
+                    <p>Yes! HeatENE works with any standard thermostat, plus smart home systems like Alexa, Google Home, and Apple HomeKit.</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -273,6 +419,7 @@
                 <div class="footer-brand">
                     <img src="assets/logo.svg" alt="HeatENE" height="32">
                     <p>Intelligent infrared heating for the modern home.</p>
+                    <p class="made-usa-footer">🇺🇸 Proudly assembled in Oklahoma</p>
                 </div>
                 <div class="footer-links">
                     <h4>Product</h4>
@@ -280,7 +427,7 @@
                         <li><a href="#how-it-works">How It Works</a></li>
                         <li><a href="#benefits">Benefits</a></li>
                         <li><a href="#products">Specifications</a></li>
-                        <li><a href="https://eastwardinho.github.io/heatene-calculator/">Calculator</a></li>
+                        <li><a href="/calculator/">Calculator</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
@@ -293,16 +440,21 @@
                 </div>
                 <div class="footer-contact">
                     <h4>Get in Touch</h4>
-                    <p>info@heatene.com</p>
-                    <p>+44 (0) 123 456 7890</p>
+                    <p>warmth@heatene.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>© 2026 HeatENE. All rights reserved.</p>
+                <p>© 2026 HeatENE USA. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Floating CTA -->
+    <a href="#lead-capture" class="floating-cta btn btn-primary">Get Free Quote</a>
+
     <script src="app.js"></script>
+    
+    <!-- Tidio Chat Widget -->
+    <script src="//code.tidio.co/jcosgz4tnqldu9sipva8nuuy2d8uu8ah.js" async></script>
 </body>
 </html>
